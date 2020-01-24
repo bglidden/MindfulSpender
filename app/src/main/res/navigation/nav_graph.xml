@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/summaryFragment">
+
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="software.highgravity.mindfulspender.SummaryFragment"
+        android:label="SummaryFragment" />
+</navigation>
